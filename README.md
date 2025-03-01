@@ -3,7 +3,7 @@
 通过Type-C USB 可以查看
 
 # 移植代码
-因xiaozhi-esp32更新频繁，可自行前往https://github.com/78/xiaozhi-esp32获取代码，并自行移植
+因xiaozhi-esp32更新频繁，可自行前往https://github.com/78/xiaozhi-esp32，移植
 
 # 小智 AI 聊天机器人
 
