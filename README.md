@@ -1,6 +1,6 @@
 # 代码fork自
 https://github.com/78/xiaozhi-esp32
-早期版本。已不再维护
+早期版本，代码精简便于二次开发
 
 # 开发环境
 esp32-s3-r8
