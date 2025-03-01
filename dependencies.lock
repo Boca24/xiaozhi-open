@@ -1,0 +1,132 @@
+dependencies:
+  78/esp-builtin-led:
+    component_hash: bdc319294a7af55ed561439a89bf748e2c4b530a22c6e26e7a6982e8643ffb9c
+    dependencies:
+    - name: espressif/led_strip
+      registry_url: https://components.espressif.com/
+      require: private
+      version: ^2.4.1
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1
+  78/esp-opus:
+    component_hash: ea20f89cb009e33fca50bc10fcc59192ba4e9cbd36362d1f07ee22b81a467a92
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.2
+  78/esp-opus-encoder:
+    component_hash: 17ba6e1c3d663827fc329d55cc7ce14751a9afbac9b5562284463cce034f0b8f
+    dependencies:
+    - name: 78/esp-opus
+      registry_url: https://components.espressif.com/
+      require: private
+      version: ^1.0.2
+    - name: idf
+      require: private
+      version: ^5.3
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1
+  78/esp-ota:
+    component_hash: 675800fb50f24d108340b61ee49923b739a171a4a034ce645fbfb1cc7403c9bc
+    dependencies:
+    - name: idf
+      require: private
+      version: ^5.3
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1
+  78/esp-websocket:
+    component_hash: fa32565e58871b91d20dfed40d85286648dd9266a7574aaa3e1d44a5efbc7747
+    dependencies:
+    - name: espressif/esp_websocket_client
+      registry_url: https://components.espressif.com/
+      require: private
+      version: ^1.2.3
+    - name: idf
+      require: private
+      version: ^5.3
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.0
+  78/esp-wifi-connect:
+    component_hash: 3465024212dc78229f6659ebf421ff421c4aad45e966076671cc31dd194d16dc
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.3'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1
+  espressif/esp-dsp:
+    component_hash: 3e7bbd487f1357a1d4944d0c85966d049501ea281b8a4c7f93f7cfedd5b7f23d
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.4.12
+  espressif/esp-sr:
+    component_hash: 4aff7847709bd996ea8c381b794fe44a9db9fb5050684dc5715de07331eb70bc
+    dependencies:
+    - name: espressif/esp-dsp
+      registry_url: https://components.espressif.com/
+      require: private
+      version: <=1.5.0
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.9.2
+  espressif/esp_websocket_client:
+    component_hash: ae561d39222a399ddda5e470913c3d54a3c0f53dce15b8d21a3aaa4226dd74b1
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.2.3
+  espressif/led_strip:
+    component_hash: 28c6509a727ef74925b372ed404772aeedf11cce10b78c3f69b3c66799095e2d
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.5.5
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+direct_dependencies:
+- 78/esp-builtin-led
+- 78/esp-opus-encoder
+- 78/esp-ota
+- 78/esp-websocket
+- 78/esp-wifi-connect
+- espressif/esp-sr
+- idf
+manifest_hash: 8a697b745ab3d84458e970ddb84361d2ad9653bef517e34a3cb0eaea44a7dc41
+target: esp32s3
+version: 2.0.0
