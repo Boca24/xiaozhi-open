@@ -1,3 +1,16 @@
+# 代码fork自
+https://github.com/78/xiaozhi-esp32
+早期版本。已不再维护
+
+# 开发环境
+esp32-s3-r8
+ESP-IDF 5.3.0及以上
+Vscode
+
+下载后用Vscode打开，选择“ESP-IDF:Open with IDF Extension”即可打开项目，选择芯片esp32-s3，编译下载
+
+# 原理图
+![原理图图](docs/SCH_2503原理图_00.jpg)
 
 # Log打印
 通过Type-C USB 可以查看
@@ -15,14 +28,6 @@ BiliBili 视频介绍 [【ESP32+SenseVoice+Qwen72B打造你的AI聊天伴侣！�
 ```
 接线方式可全局搜索“AUDIO_DEVICE_I2S_GPIO_BCLK”即可查看
 ```
-### 原理图
-![原理图图](docs/SCH_2503原理图_00.jpg)
-
-### 搭建开发环境
-
-- Cursor 或 VSCode
-- 安装 ESP-IDF 插件，选择 SDK 版本 5.3 或以上
-- Ubuntu 比 Windows 更好，编译速度快，也免去驱动问题的困扰
 
 ### 配置项目与编译固件
 
