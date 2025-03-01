@@ -15,7 +15,7 @@ BiliBili 视频介绍 [【ESP32+SenseVoice+Qwen72B打造你的AI聊天伴侣！�
 ```
 接线方式可全局搜索“AUDIO_DEVICE_I2S_GPIO_BCLK”即可查看
 ```
-原理图如下：
+### 原理图
 ![原理图图](docs/SCH_2503原理图_00.jpg)
 
 ### 搭建开发环境
