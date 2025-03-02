@@ -51,3 +51,9 @@ BiliBili 视频介绍 [【ESP32+SenseVoice+Qwen72B打造你的AI聊天伴侣！�
 xiaozhi.me
 添加设备到云端服务器，并控制使用“小智AI助理”的语音控制设备。
 
+# 编译和下载
+编译
+![编译](docs/log编译完成.png)
+
+运行
+![设备控制台](docs/运行.png)
