@@ -56,4 +56,4 @@ xiaozhi.me
 ![编译](docs/log编译完成.png)
 
 运行
-![设备控制台](docs/运行.png)
+![设备控制台](docs/log运行.png)
